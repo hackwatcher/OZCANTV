@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
+  "matches_api_url": "https://patronsports2.cfd/matches.php",
+  "default_primary_base": "https://dga1op10s1u3leo.33a6243d11525c.click/live/{id}/playlist.m3u8",
+  "default_primary_referer": "https://main.uxsyplayer6859599e6c.click/",
+  "default_backup_player": "https://main.uxsyplayer6859599e6c.click/index.php?id={id}",
+  "default_backup_referer": "https://www.selcuksportshd0f9c045ffb.xyz/",
+  "channels": [
+    {
+      "id": "selcukbeinsports1",
+      "name": "beIN Sports 1",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports1.png",
+      "badge": "CANLI HD",
+      "aliases": ["patron", "b1", "bein1"]
+    },
+    {
+      "id": "selcukbeinsports2",
+      "name": "beIN Sports 2",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports2.png",
+      "badge": "CANLI HD",
+      "aliases": ["b2", "bein2"]
+    },
+    {
+      "id": "selcukbeinsports3",
+      "name": "beIN Sports 3",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports3.png",
+      "badge": "CANLI HD",
+      "aliases": ["b3", "bein3"]
+    },
+    {
+      "id": "selcukbeinsports4",
+      "name": "beIN Sports 4",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports4.png",
+      "badge": "CANLI HD",
+      "aliases": ["b4", "bein4"]
+    },
+    {
+      "id": "selcukbeinsports5",
+      "name": "beIN Sports 5",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports5.png",
+      "badge": "CANLI HD",
+      "aliases": ["b5", "bein5"]
+    },
+    {
+      "id": "selcukbeinsportsmax1",
+      "name": "beIN Sports Max 1",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsportsmax1.png",
+      "badge": "CANLI HD",
+      "aliases": ["bm1", "beinmax1"]
+    },
+    {
+      "id": "selcukbeinsportsmax2",
+      "name": "beIN Sports Max 2",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsportsmax2.png",
+      "badge": "CANLI HD",
+      "aliases": ["bm2", "beinmax2"]
+    },
+    {
+      "id": "selcukbeinsportshaber",
+      "name": "beIN Sports Haber",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports1.png",
+      "badge": "CANLI HD",
+      "aliases": ["beinsportshaber", "bh"]
+    },
+    {
+      "id": "selcukssport",
+      "name": "S Sport 1",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/ssport1.png",
+      "badge": "CANLI HD",
+      "aliases": ["ss", "ssport1"]
+    },
+    {
+      "id": "selcukssport2",
+      "name": "S Sport 2",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/ssport2.png",
+      "badge": "CANLI HD",
+      "aliases": ["ss2", "ssport2"]
+    },
+    {
+      "id": "selcuksmartspor",
+      "name": "Smart Spor 1",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/smartspor.png",
+      "badge": "CANLI HD",
+      "aliases": ["smarts", "smart1"]
+    },
+    {
+      "id": "selcuksmartspor2",
+      "name": "Smart Spor 2",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/smartspor2.png",
+      "badge": "CANLI HD",
+      "aliases": ["smarts2", "smart2"]
+    },
+    {
+      "id": "selcuktivibu1",
+      "name": "Tivibu Spor 1",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/tivibu1.png",
+      "badge": "CANLI HD",
+      "aliases": ["t1", "tivibu1"]
+    },
+    {
+      "id": "selcuktivibu2",
+      "name": "Tivibu Spor 2",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/tivibu2.png",
+      "badge": "CANLI HD",
+      "aliases": ["t2", "tivibu2"]
+    },
+    {
+      "id": "selcuktrtspor",
+      "name": "TRT Spor",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/trtspornew.png",
+      "badge": "CANLI",
+      "aliases": ["trtspor"]
+    },
+    {
+      "id": "selcuktrt1",
+      "name": "TRT 1",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/trt1.png",
+      "badge": "CANLI",
+      "aliases": ["trt1"]
+    },
+    {
+      "id": "selcukaspor",
+      "name": "A Spor",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/aspornew.png",
+      "badge": "CANLI",
+      "aliases": ["as", "aspor"]
+    },
+    {
+      "id": "selcukatv",
+      "name": "ATV",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/atv.png",
+      "badge": "CANLI",
+      "aliases": ["atv"]
+    },
+    {
+      "id": "selcuktv8",
+      "name": "TV8",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/tv8.png",
+      "badge": "CANLI",
+      "aliases": ["tv8"]
+    },
+    {
+      "id": "selcuktv85",
+      "name": "TV8.5",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/tv85.png",
+      "badge": "CANLI",
+      "aliases": ["tv85", "tv8.5"]
+    }
+  ]
+}
