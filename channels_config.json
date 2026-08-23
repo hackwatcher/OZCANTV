@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
   "matches_api_url": "https://patronsports2.cfd/matches.php",
   "default_primary_base": "https://dga1op10s1u3leo.33a6243d11525c.click/live/{id}/playlist.m3u8",
@@ -9,42 +9,42 @@
   "channels": [
     {
       "id": "selcukbeinsports1",
-      "name": "beIN Sports 1",
+      "name": "beIN Sports 1 (1080p)",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports1.png",
-      "badge": "CANLI HD",
+      "badge": "1080p 50FPS",
       "aliases": ["patron", "b1", "bein1"]
     },
     {
       "id": "selcukbeinsports2",
-      "name": "beIN Sports 2",
+      "name": "beIN Sports 2 (1080p)",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports2.png",
-      "badge": "CANLI HD",
+      "badge": "1080p 50FPS",
       "aliases": ["b2", "bein2"]
     },
     {
       "id": "selcukbeinsports3",
-      "name": "beIN Sports 3",
+      "name": "beIN Sports 3 (1080p)",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports3.png",
-      "badge": "CANLI HD",
+      "badge": "1080p 50FPS",
       "aliases": ["b3", "bein3"]
     },
     {
       "id": "selcukbeinsports4",
-      "name": "beIN Sports 4",
+      "name": "beIN Sports 4 (1080p)",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports4.png",
-      "badge": "CANLI HD",
+      "badge": "1080p 50FPS",
       "aliases": ["b4", "bein4"]
     },
     {
       "id": "selcukbeinsports5",
-      "name": "beIN Sports 5",
+      "name": "beIN Sports 5 (1080p)",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports5.png",
-      "badge": "CANLI HD",
+      "badge": "1080p 50FPS",
       "aliases": ["b5", "bein5"]
     },
     {
@@ -52,7 +52,7 @@
       "name": "beIN Sports Max 1",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsportsmax1.png",
-      "badge": "CANLI HD",
+      "badge": "1080p HD",
       "aliases": ["bm1", "beinmax1"]
     },
     {
@@ -60,7 +60,7 @@
       "name": "beIN Sports Max 2",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsportsmax2.png",
-      "badge": "CANLI HD",
+      "badge": "1080p HD",
       "aliases": ["bm2", "beinmax2"]
     },
     {
@@ -68,23 +68,23 @@
       "name": "beIN Sports Haber",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports1.png",
-      "badge": "CANLI HD",
+      "badge": "1080p HD",
       "aliases": ["beinsportshaber", "bh"]
     },
     {
       "id": "selcukssport",
-      "name": "S Sport 1",
+      "name": "S Sport 1 (1080p)",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/ssport1.png",
-      "badge": "CANLI HD",
+      "badge": "1080p 50FPS",
       "aliases": ["ss", "ssport1"]
     },
     {
       "id": "selcukssport2",
-      "name": "S Sport 2",
+      "name": "S Sport 2 (1080p)",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/ssport2.png",
-      "badge": "CANLI HD",
+      "badge": "1080p 50FPS",
       "aliases": ["ss2", "ssport2"]
     },
     {
@@ -92,7 +92,7 @@
       "name": "Smart Spor 1",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/smartspor.png",
-      "badge": "CANLI HD",
+      "badge": "1080p HD",
       "aliases": ["smarts", "smart1"]
     },
     {
@@ -100,7 +100,7 @@
       "name": "Smart Spor 2",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/smartspor2.png",
-      "badge": "CANLI HD",
+      "badge": "1080p HD",
       "aliases": ["smarts2", "smart2"]
     },
     {
@@ -108,7 +108,7 @@
       "name": "Tivibu Spor 1",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/tivibu1.png",
-      "badge": "CANLI HD",
+      "badge": "1080p HD",
       "aliases": ["t1", "tivibu1"]
     },
     {
@@ -116,31 +116,42 @@
       "name": "Tivibu Spor 2",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/tivibu2.png",
-      "badge": "CANLI HD",
+      "badge": "1080p HD",
       "aliases": ["t2", "tivibu2"]
     },
     {
-      "id": "selcuktrtspor",
-      "name": "TRT Spor",
-      "category": "national",
-      "logo": "https://patronsports2.cfd/img/trtspornew.png",
-      "badge": "CANLI",
-      "aliases": ["trtspor"]
-    },
-    {
-      "id": "selcuktrt1",
-      "name": "TRT 1",
+      "id": "trt1_official",
+      "name": "TRT 1 (Orijinal)",
       "category": "national",
       "logo": "https://patronsports2.cfd/img/trt1.png",
-      "badge": "CANLI",
-      "aliases": ["trt1"]
+      "badge": "1080p 50FPS",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+      "aliases": ["trt1", "selcuktrt1"]
+    },
+    {
+      "id": "trtspor_official",
+      "name": "TRT Spor (Orijinal)",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/trtspornew.png",
+      "badge": "1080p 50FPS",
+      "stream_url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8",
+      "aliases": ["trtspor", "selcuktrtspor"]
+    },
+    {
+      "id": "trtspor2_official",
+      "name": "TRT Spor Yıldız (Orijinal)",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/trtspornew.png",
+      "badge": "1080p 50FPS",
+      "stream_url": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8",
+      "aliases": ["trtspor2", "selcuktrtspor2"]
     },
     {
       "id": "selcukaspor",
       "name": "A Spor",
       "category": "national",
       "logo": "https://patronsports2.cfd/img/aspornew.png",
-      "badge": "CANLI",
+      "badge": "CANLI HD",
       "aliases": ["as", "aspor"]
     },
     {
@@ -148,7 +159,7 @@
       "name": "ATV",
       "category": "national",
       "logo": "https://patronsports2.cfd/img/atv.png",
-      "badge": "CANLI",
+      "badge": "CANLI HD",
       "aliases": ["atv"]
     },
     {
@@ -156,7 +167,7 @@
       "name": "TV8",
       "category": "national",
       "logo": "https://patronsports2.cfd/img/tv8.png",
-      "badge": "CANLI",
+      "badge": "CANLI HD",
       "aliases": ["tv8"]
     },
     {
@@ -164,7 +175,7 @@
       "name": "TV8.5",
       "category": "national",
       "logo": "https://patronsports2.cfd/img/tv85.png",
-      "badge": "CANLI",
+      "badge": "CANLI HD",
       "aliases": ["tv85", "tv8.5"]
     }
   ]
