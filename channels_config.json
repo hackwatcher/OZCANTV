@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
   "matches_api_url": "https://patronsports2.cfd/matches.php",
   "default_primary_base": "https://dga1op10s1u3leo.33a6243d11525c.click/live/{id}/playlist.m3u8",
@@ -196,6 +196,168 @@
       "logo": "https://patronsports2.cfd/img/tv85.png",
       "badge": "CANLI HD",
       "aliases": ["tv85", "tv8.5"]
+    }
+  ],
+  "movies": [
+    {
+      "id": "mov_spider_man_nwh",
+      "title": "Örümcek-Adam: Eve Dönüş Yok",
+      "category": "movies",
+      "poster": "https://image.tmdb.org/t/p/w500/uJYY2QIY0hY7b8X9shTfqEPMWb1.jpg",
+      "year": "2021",
+      "rating": "⭐ 8.2",
+      "badge": "TR DUBLAJ 4K",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "mov_oppenheimer",
+      "title": "Oppenheimer",
+      "category": "movies",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "year": "2023",
+      "rating": "⭐ 8.9",
+      "badge": "TR DUBLAJ 1080p",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "mov_avatar_2",
+      "title": "Avatar: Suyun Yolu",
+      "category": "movies",
+      "poster": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+      "year": "2022",
+      "rating": "⭐ 7.8",
+      "badge": "TR DUBLAJ 4K",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "mov_interstellar",
+      "title": "Yıldızlararası (Interstellar)",
+      "category": "movies",
+      "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "year": "2014",
+      "rating": "⭐ 8.7",
+      "badge": "TR DUBLAJ 1080p",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "mov_harry_potter_1",
+      "title": "Harry Potter ve Felsefe Taşı",
+      "category": "movies",
+      "poster": "https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+      "year": "2001",
+      "rating": "⭐ 7.9",
+      "badge": "TR DUBLAJ 1080p",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "mov_lotr_1",
+      "title": "Yüzüklerin Efendisi: Yüzük Kardeşliği",
+      "category": "movies",
+      "poster": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cDK6.jpg",
+      "year": "2001",
+      "rating": "⭐ 8.8",
+      "badge": "TR DUBLAJ 4K",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "mov_batman_dk",
+      "title": "Kara Şövalye (The Dark Knight)",
+      "category": "movies",
+      "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "year": "2008",
+      "rating": "⭐ 9.0",
+      "badge": "TR DUBLAJ 1080p",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "mov_fast_x",
+      "title": "Hızlı ve Öfkeli 10 (Fast X)",
+      "category": "movies",
+      "poster": "https://image.tmdb.org/t/p/w500/fiVW06jE7z9YBoT3CWuh40ZOkUT.jpg",
+      "year": "2023",
+      "rating": "⭐ 7.2",
+      "badge": "TR DUBLAJ 1080p",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "ser_wednesday",
+      "title": "Wednesday (Netflix)",
+      "category": "series",
+      "poster": "https://image.tmdb.org/t/p/w500/9PFonQ92c0wFsPjk0AyqapSuKaH.jpg",
+      "year": "2022",
+      "rating": "⭐ 8.1",
+      "badge": "TR DUBLAJ DİZİ",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "ser_stranger_things",
+      "title": "Stranger Things (Netflix)",
+      "category": "series",
+      "poster": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+      "year": "2022",
+      "rating": "⭐ 8.7",
+      "badge": "TR DUBLAJ DİZİ",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "ser_breaking_bad",
+      "title": "Breaking Bad",
+      "category": "series",
+      "poster": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+      "year": "2008",
+      "rating": "⭐ 9.5",
+      "badge": "TR DUBLAJ DİZİ",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "ser_kurtlar_vadisi",
+      "title": "Kurtlar Vadisi (İlk 97 Bölüm)",
+      "category": "series",
+      "poster": "https://image.tmdb.org/t/p/w500/6y01WvKzGqMcfxJ3b9E6B5f0X5X.jpg",
+      "year": "2003",
+      "rating": "⭐ 9.1",
+      "badge": "FULL HD DİZİ",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "ani_shrek_1",
+      "title": "Şrek 1 (Shrek)",
+      "category": "animation",
+      "poster": "https://image.tmdb.org/t/p/w500/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+      "year": "2001",
+      "rating": "⭐ 7.9",
+      "badge": "EFSANE TR DUBLAJ",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "ani_ice_age_1",
+      "title": "Buz Devri 1 (Ice Age)",
+      "category": "animation",
+      "poster": "https://image.tmdb.org/t/p/w500/gLh4lyTv4VSc8FsvxZ82h88p3fB.jpg",
+      "year": "2002",
+      "rating": "⭐ 7.6",
+      "badge": "EFSANE TR DUBLAJ",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "ani_toy_story_1",
+      "title": "Oyuncak Hikayesi (Toy Story)",
+      "category": "animation",
+      "poster": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+      "year": "1995",
+      "rating": "⭐ 8.3",
+      "badge": "DİSNEY TR DUBLAJ",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "ani_lion_king",
+      "title": "Aslan Kral (The Lion King)",
+      "category": "animation",
+      "poster": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+      "year": "1994",
+      "rating": "⭐ 8.5",
+      "badge": "DİSNEY TR DUBLAJ",
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
     }
   ]
 }
