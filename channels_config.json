@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
   "matches_api_url": "https://patronsports2.cfd/matches.php",
   "default_primary_base": "https://dga1op10s1u3leo.33a6243d11525c.click/live/{id}/playlist.m3u8",
@@ -120,6 +120,15 @@
       "aliases": ["t2", "tivibu2"]
     },
     {
+      "id": "redbulltv",
+      "name": "Red Bull TV (Motorsport)",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p 60FPS",
+      "stream_url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+      "aliases": ["redbull", "redbulltv"]
+    },
+    {
       "id": "trt1_official",
       "name": "TRT 1 (Orijinal)",
       "category": "national",
@@ -147,12 +156,22 @@
       "aliases": ["trtspor2", "selcuktrtspor2"]
     },
     {
-      "id": "selcukaspor",
-      "name": "A Spor",
+      "id": "aspor_official",
+      "name": "A Spor (Orijinal)",
       "category": "national",
       "logo": "https://patronsports2.cfd/img/aspornew.png",
-      "badge": "CANLI HD",
-      "aliases": ["as", "aspor"]
+      "badge": "1080p 50FPS",
+      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+      "aliases": ["as", "aspor", "selcukaspor"]
+    },
+    {
+      "id": "trthaber_official",
+      "name": "TRT Haber (Orijinal)",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p 50FPS",
+      "stream_url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+      "aliases": ["trthaber"]
     },
     {
       "id": "selcukatv",
