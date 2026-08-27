@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
   "matches_api_url": "https://patronsports2.cfd/matches.php",
   "default_primary_base": "https://dga1op10s1u3leo.33a6243d11525c.click/live/{id}/playlist.m3u8",
@@ -31,7 +31,8 @@
         "b1",
         "bein1",
         "selcukbeinsports1"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1536245.m3u8"
     },
     {
       "id": "b2",
@@ -43,7 +44,8 @@
         "b2",
         "bein2",
         "selcukbeinsports2"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505727.m3u8"
     },
     {
       "id": "b3",
@@ -55,7 +57,8 @@
         "b3",
         "bein3",
         "selcukbeinsports3"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505731.m3u8"
     },
     {
       "id": "b4",
@@ -210,7 +213,7 @@
       "aliases": [
         "trtspor2"
       ],
-      "stream_url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8"
+      "stream_url": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8"
     },
     {
       "id": "trt1",
@@ -275,7 +278,8 @@
         "ex5",
         "exxen5",
         "selcukexxen5"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505763.m3u8"
     },
     {
       "id": "ex6",
@@ -341,7 +345,8 @@
         "ex1",
         "exxen1",
         "selcukexxen1"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505757.m3u8"
     },
     {
       "id": "ex2",
@@ -353,7 +358,8 @@
         "ex2",
         "exxen2",
         "selcukexxen2"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505760.m3u8"
     },
     {
       "id": "ex3",
@@ -365,7 +371,8 @@
         "ex3",
         "exxen3",
         "selcukexxen3"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505761.m3u8"
     },
     {
       "id": "ex4",
@@ -377,7 +384,8 @@
         "ex4",
         "exxen4",
         "selcukexxen4"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505762.m3u8"
     },
     {
       "id": "ex5",
@@ -389,7 +397,8 @@
         "ex5",
         "exxen5",
         "selcukexxen5"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505763.m3u8"
     },
     {
       "id": "ex6",
@@ -413,7 +422,8 @@
         "ex1",
         "exxen1",
         "selcukexxen1"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505757.m3u8"
     },
     {
       "id": "ex1",
@@ -425,7 +435,8 @@
         "ex1",
         "exxen1",
         "selcukexxen1"
-      ]
+      ],
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505757.m3u8"
     },
     {
       "id": "trtbelgesel_official",
