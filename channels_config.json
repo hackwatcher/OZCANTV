@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
   "matches_api_url": "https://patronsports2.cfd/matches.php",
   "default_primary_base": "https://dga1op10s1u3leo.33a6243d11525c.click/live/{id}/playlist.m3u8",
@@ -97,6 +97,61 @@
       ]
     },
     {
+      "id": "selcukexxen1",
+      "name": "Exxen Spor 1 (UEFA)",
+      "category": "exxen",
+      "logo": "https://patronsports2.cfd/img/exxen1.png",
+      "badge": "CANLI HD",
+      "aliases": [
+        "ex1",
+        "exxen1"
+      ]
+    },
+    {
+      "id": "selcukexxen2",
+      "name": "Exxen Spor 2 (UEFA)",
+      "category": "exxen",
+      "logo": "https://patronsports2.cfd/img/exxen2.png",
+      "badge": "CANLI HD",
+      "aliases": [
+        "ex2",
+        "exxen2"
+      ]
+    },
+    {
+      "id": "selcukexxen3",
+      "name": "Exxen Spor 3 (UEFA)",
+      "category": "exxen",
+      "logo": "https://patronsports2.cfd/img/exxen3.png",
+      "badge": "CANLI HD",
+      "aliases": [
+        "ex3",
+        "exxen3"
+      ]
+    },
+    {
+      "id": "selcukexxen4",
+      "name": "Exxen Spor 4 (UEFA)",
+      "category": "exxen",
+      "logo": "https://patronsports2.cfd/img/exxen4.png",
+      "badge": "CANLI HD",
+      "aliases": [
+        "ex4",
+        "exxen4"
+      ]
+    },
+    {
+      "id": "selcukexxen5",
+      "name": "Exxen Spor 5 (UEFA)",
+      "category": "exxen",
+      "logo": "https://patronsports2.cfd/img/exxen5.png",
+      "badge": "CANLI HD",
+      "aliases": [
+        "ex5",
+        "exxen5"
+      ]
+    },
+    {
       "id": "selcukssport",
       "name": "S Sport 1 (1080p)",
       "category": "ssport",
@@ -163,6 +218,28 @@
       ]
     },
     {
+      "id": "selcukeurosport1",
+      "name": "Eurosport 1",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/eurosport1.png",
+      "badge": "CANLI HD",
+      "aliases": [
+        "eu1",
+        "eurosport1"
+      ]
+    },
+    {
+      "id": "selcukeurosport2",
+      "name": "Eurosport 2",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/eurosport2.png",
+      "badge": "CANLI HD",
+      "aliases": [
+        "eu2",
+        "eurosport2"
+      ]
+    },
+    {
       "id": "redbulltv",
       "name": "Red Bull TV (Motorsport)",
       "category": "ssport",
@@ -224,6 +301,30 @@
       ]
     },
     {
+      "id": "atv_official",
+      "name": "ATV HD (Orijinal)",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/atv.png",
+      "badge": "1080p 50FPS",
+      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
+      "aliases": [
+        "atv",
+        "selcukatv"
+      ]
+    },
+    {
+      "id": "ahaber_official",
+      "name": "A Haber (Orijinal)",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/aspornew.png",
+      "badge": "1080p 50FPS",
+      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8",
+      "aliases": [
+        "ahaber",
+        "selcukahaber"
+      ]
+    },
+    {
       "id": "trthaber_official",
       "name": "TRT Haber (Orijinal)",
       "category": "national",
@@ -232,16 +333,6 @@
       "stream_url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
       "aliases": [
         "trthaber"
-      ]
-    },
-    {
-      "id": "selcukatv",
-      "name": "ATV",
-      "category": "national",
-      "logo": "https://patronsports2.cfd/img/atv.png",
-      "badge": "CANLI HD",
-      "aliases": [
-        "atv"
       ]
     },
     {
@@ -263,6 +354,50 @@
       "aliases": [
         "tv85",
         "tv8.5"
+      ]
+    },
+    {
+      "id": "trtbelgesel_official",
+      "name": "TRT Belgesel HD",
+      "category": "docu",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p 50FPS",
+      "stream_url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
+      "aliases": [
+        "trtbelgesel"
+      ]
+    },
+    {
+      "id": "trtcocuk_official",
+      "name": "TRT Çocuk HD",
+      "category": "docu",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p 50FPS",
+      "stream_url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+      "aliases": [
+        "trtcocuk"
+      ]
+    },
+    {
+      "id": "minikago_official",
+      "name": "Minika GO HD",
+      "category": "docu",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p 50FPS",
+      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8",
+      "aliases": [
+        "minikago"
+      ]
+    },
+    {
+      "id": "trtmuzik_official",
+      "name": "TRT Müzik HD",
+      "category": "docu",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p 50FPS",
+      "stream_url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+      "aliases": [
+        "trtmuzik"
       ]
     }
   ],
