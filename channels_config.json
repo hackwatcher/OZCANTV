@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
   "matches_api_url": "https://patronsports2.cfd/matches.php",
   "default_primary_base": "https://dga1op10s1u3leo.33a6243d11525c.click/live/{id}/playlist.m3u8",
@@ -7,6 +7,19 @@
   "default_backup_player": "https://patronhd6.cfd/ch.html?id={id}",
   "default_backup_referer": "https://patronhd6.cfd/",
   "channels": [
+    {
+      "id": "tv100_hd",
+      "name": "TV100 HD",
+      "category": "national",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png",
+      "badge": "1080p HD",
+      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1088.m3u8",
+      "aliases": [
+        "tv100",
+        "tv 100",
+        "tv100hd"
+      ]
+    },
     {
       "id": "patron",
       "name": "BEIN SPORTS 1",
