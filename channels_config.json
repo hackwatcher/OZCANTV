@@ -1,23 +1,159 @@
 {
-  "version": 9,
+  "version": 10,
   "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
   "matches_api_url": "https://patronsports2.cfd/matches.php",
-  "default_primary_base": "https://dga1op10s1u3leo.33a6243d11525c.click/live/{id}/playlist.m3u8",
-  "default_primary_referer": "https://main.uxsyplayer6859599e6c.click/",
-  "default_backup_player": "https://patronhd6.cfd/ch.html?id={id}",
-  "default_backup_referer": "https://patronhd6.cfd/",
+  "domain_api_url": "https://patronsports2.cfd/domain.php",
+  "default_primary_base": "https://2i4.d72577a9dd0ec71.cfd/{id}/mono.m3u8",
+  "default_primary_referer": "https://patronhd7.cfd/",
+  "default_backup_player": "https://patronhd7.cfd/ch.html?id={id}",
+  "default_backup_referer": "https://patronhd7.cfd/",
   "channels": [
+    {
+      "id": "trt1",
+      "name": "TRT 1 HD",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/trt1.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "trt1",
+        "trt 1",
+        "trt1hd"
+      ],
+      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "trtspor",
+      "name": "TRT SPOR HD",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/trtspornew.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "trtspor",
+        "trt spor",
+        "trtspor1"
+      ],
+      "stream_url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "trtspor2",
+      "name": "TRT SPOR YILDIZ",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/trtspor2.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "trtspor2",
+        "trt spor 2",
+        "trt sporyildiz",
+        "trtspor yildiz"
+      ],
+      "stream_url": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "trthaber",
+      "name": "TRT HABER HD",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "trthaber",
+        "trt haber"
+      ],
+      "stream_url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "trtmuzik",
+      "name": "TRT MÜZİK HD",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "trtmuzik",
+        "trt müzik"
+      ],
+      "stream_url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "trtturk",
+      "name": "TRT TÜRK HD",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "trtturk",
+        "trt türk"
+      ],
+      "stream_url": "https://tv-trtturk.medya.trt.com.tr/master.m3u8"
+    },
+    {
+      "id": "atv",
+      "name": "ATV HD",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/atv.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "atv",
+        "atvhd"
+      ],
+      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8"
+    },
+    {
+      "id": "as",
+      "name": "A SPOR HD",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/aspornew.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "as",
+        "aspor",
+        "a spor"
+      ],
+      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8"
+    },
+    {
+      "id": "ahaber",
+      "name": "A HABER HD",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "ahaber",
+        "a haber"
+      ],
+      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8"
+    },
     {
       "id": "tv100_hd",
       "name": "TV100 HD",
       "category": "national",
       "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png",
       "badge": "1080p HD",
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1088.m3u8",
       "aliases": [
         "tv100",
         "tv 100",
         "tv100hd"
+      ]
+    },
+    {
+      "id": "tv8",
+      "name": "TV 8",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/tv8.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "tv8",
+        "tv 8"
+      ]
+    },
+    {
+      "id": "tv85",
+      "name": "TV 8,5",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/tv85.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "tv85",
+        "tv 8.5",
+        "tv8,5"
       ]
     },
     {
@@ -31,8 +167,7 @@
         "b1",
         "bein1",
         "selcukbeinsports1"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1536245.m3u8"
+      ]
     },
     {
       "id": "b2",
@@ -44,8 +179,7 @@
         "b2",
         "bein2",
         "selcukbeinsports2"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505727.m3u8"
+      ]
     },
     {
       "id": "b3",
@@ -57,8 +191,7 @@
         "b3",
         "bein3",
         "selcukbeinsports3"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505731.m3u8"
+      ]
     },
     {
       "id": "b4",
@@ -194,106 +327,6 @@
       ]
     },
     {
-      "id": "trtspor",
-      "name": "TRT SPOR",
-      "category": "national",
-      "logo": "https://patronsports2.cfd/img/trtspornew.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "trtspor"
-      ],
-      "stream_url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8"
-    },
-    {
-      "id": "trtspor2",
-      "name": "TRT SPOR YILDIZ",
-      "category": "national",
-      "logo": "https://patronsports2.cfd/img/trtspor2.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "trtspor2"
-      ],
-      "stream_url": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8"
-    },
-    {
-      "id": "trt1",
-      "name": "TRT 1",
-      "category": "national",
-      "logo": "https://patronsports2.cfd/img/trt1.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "trt1"
-      ],
-      "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
-    },
-    {
-      "id": "as",
-      "name": "A SPOR",
-      "category": "national",
-      "logo": "https://patronsports2.cfd/img/aspornew.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "as"
-      ],
-      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8"
-    },
-    {
-      "id": "atv",
-      "name": "ATV",
-      "category": "national",
-      "logo": "https://patronsports2.cfd/img/atv.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "atv"
-      ],
-      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8"
-    },
-    {
-      "id": "tv8",
-      "name": "TV 8",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tv8.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "tv8"
-      ]
-    },
-    {
-      "id": "tv85",
-      "name": "TV 8,5",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tv85.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "tv85"
-      ]
-    },
-    {
-      "id": "ex5",
-      "name": "Sıfır Tv",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/sifirtv.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "ex5",
-        "exxen5",
-        "selcukexxen5"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505763.m3u8"
-    },
-    {
-      "id": "ex6",
-      "name": "Bi Kanal",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/bikanal.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "ex6",
-        "exxen6",
-        "selcukexxen6"
-      ]
-    },
-    {
       "id": "skyf1",
       "name": "SKY SPORTS F1",
       "category": "ssport",
@@ -324,6 +357,18 @@
       ]
     },
     {
+      "id": "redbulltv",
+      "name": "Red Bull TV",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p 60FPS",
+      "stream_url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+      "aliases": [
+        "redbull",
+        "redbulltv"
+      ]
+    },
+    {
       "id": "ex7",
       "name": "TABİİ SPOR",
       "category": "ssport",
@@ -345,8 +390,7 @@
         "ex1",
         "exxen1",
         "selcukexxen1"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505757.m3u8"
+      ]
     },
     {
       "id": "ex2",
@@ -358,8 +402,7 @@
         "ex2",
         "exxen2",
         "selcukexxen2"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505760.m3u8"
+      ]
     },
     {
       "id": "ex3",
@@ -371,8 +414,7 @@
         "ex3",
         "exxen3",
         "selcukexxen3"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505761.m3u8"
+      ]
     },
     {
       "id": "ex4",
@@ -384,8 +426,7 @@
         "ex4",
         "exxen4",
         "selcukexxen4"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505762.m3u8"
+      ]
     },
     {
       "id": "ex5",
@@ -397,8 +438,7 @@
         "ex5",
         "exxen5",
         "selcukexxen5"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505763.m3u8"
+      ]
     },
     {
       "id": "ex6",
@@ -422,21 +462,27 @@
         "ex1",
         "exxen1",
         "selcukexxen1"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505757.m3u8"
+      ]
     },
     {
-      "id": "ex1",
-      "name": "EXXEN 1",
-      "category": "exxen",
-      "logo": "https://patronsports2.cfd/img/exxen.png",
+      "id": "sifirtv",
+      "name": "Sıfır Tv",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/sifirtv.png",
       "badge": "1080p HD",
       "aliases": [
-        "ex1",
-        "exxen1",
-        "selcukexxen1"
-      ],
-      "stream_url": "https://canta21.shop/live/Emir34zcn/Gayemir123/1505757.m3u8"
+        "sifirtv"
+      ]
+    },
+    {
+      "id": "bikanal",
+      "name": "Bi Kanal",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/bikanal.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "bikanal"
+      ]
     },
     {
       "id": "trtbelgesel_official",
@@ -469,18 +515,6 @@
       "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8",
       "aliases": [
         "minikago"
-      ]
-    },
-    {
-      "id": "redbulltv",
-      "name": "Red Bull TV",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/logos/default.png",
-      "badge": "1080p 60FPS",
-      "stream_url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
-      "aliases": [
-        "redbull",
-        "redbulltv"
       ]
     }
   ],
