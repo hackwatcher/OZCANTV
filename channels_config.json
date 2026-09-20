@@ -1,12 +1,11 @@
 {
-  "version": 10,
+  "version": 11,
   "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
   "matches_api_url": "https://patronsports2.cfd/matches.php",
-  "domain_api_url": "https://patronsports2.cfd/domain.php",
-  "default_primary_base": "https://2i4.d72577a9dd0ec71.cfd/{id}/mono.m3u8",
-  "default_primary_referer": "https://patronhd7.cfd/",
-  "default_backup_player": "https://patronhd7.cfd/ch.html?id={id}",
-  "default_backup_referer": "https://patronhd7.cfd/",
+  "default_primary_base": "https://dga1op10s1u3lea.82250d06d39d38.click/live/{id}/playlist.m3u8",
+  "default_primary_referer": "https://main.uxsyplayer6859599e6c.click/",
+  "default_backup_player": "https://main.uxsyplayer6859599e6c.click/index.php?id={id}",
+  "default_backup_referer": "https://www.selcuksportshd0.xyz",
   "channels": [
     {
       "id": "trt1",
@@ -122,18 +121,6 @@
       "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8"
     },
     {
-      "id": "tv100_hd",
-      "name": "TV100 HD",
-      "category": "national",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "tv100",
-        "tv 100",
-        "tv100hd"
-      ]
-    },
-    {
       "id": "tv8",
       "name": "TV 8",
       "category": "ssport",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": "patron",
+      "id": "selcukbeinsports1",
       "name": "BEIN SPORTS 1",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports1.png",
@@ -166,11 +153,12 @@
         "patron",
         "b1",
         "bein1",
-        "selcukbeinsports1"
+        "selcukbeinsports1",
+        "beinsports1"
       ]
     },
     {
-      "id": "b2",
+      "id": "selcukbeinsports2",
       "name": "BEIN SPORTS 2",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports2.png",
@@ -178,11 +166,12 @@
       "aliases": [
         "b2",
         "bein2",
-        "selcukbeinsports2"
+        "selcukbeinsports2",
+        "beinsports2"
       ]
     },
     {
-      "id": "b3",
+      "id": "selcukbeinsports3",
       "name": "BEIN SPORTS 3",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports3.png",
@@ -190,11 +179,12 @@
       "aliases": [
         "b3",
         "bein3",
-        "selcukbeinsports3"
+        "selcukbeinsports3",
+        "beinsports3"
       ]
     },
     {
-      "id": "b4",
+      "id": "selcukbeinsports4",
       "name": "BEIN SPORTS 4",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports4.png",
@@ -202,11 +192,12 @@
       "aliases": [
         "b4",
         "bein4",
-        "selcukbeinsports4"
+        "selcukbeinsports4",
+        "beinsports4"
       ]
     },
     {
-      "id": "b5",
+      "id": "selcukbeinsports5",
       "name": "BEIN SPORTS 5",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsports5.png",
@@ -214,11 +205,12 @@
       "aliases": [
         "b5",
         "bein5",
-        "selcukbeinsports5"
+        "selcukbeinsports5",
+        "beinsports5"
       ]
     },
     {
-      "id": "bm1",
+      "id": "selcukbeinsportsmax1",
       "name": "BEIN SPORTS MAX 1",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsportsmax1.png",
@@ -226,11 +218,13 @@
       "aliases": [
         "bm1",
         "beinm1",
-        "selcukbeinsportsm1"
+        "selcukbeinsportsm1",
+        "selcukbeinsportsmax1",
+        "beinsportsmax1"
       ]
     },
     {
-      "id": "bm2",
+      "id": "selcukbeinsportsmax2",
       "name": "BEIN SPORTS MAX 2",
       "category": "bein",
       "logo": "https://patronsports2.cfd/img/beinsportsmax2.png",
@@ -238,11 +232,13 @@
       "aliases": [
         "bm2",
         "beinm2",
-        "selcukbeinsportsm2"
+        "selcukbeinsportsm2",
+        "selcukbeinsportsmax2",
+        "beinsportsmax2"
       ]
     },
     {
-      "id": "ss",
+      "id": "selcukssport",
       "name": "S SPORT",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/ssport1.png",
@@ -251,11 +247,12 @@
         "ss",
         "ss1",
         "ssport1",
-        "selcukssport"
+        "selcukssport",
+        "ssport"
       ]
     },
     {
-      "id": "ss2",
+      "id": "selcukssport2",
       "name": "S SPORT 2",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/ssport2.png",
@@ -267,93 +264,80 @@
       ]
     },
     {
-      "id": "smarts",
+      "id": "smartspor",
       "name": "SMART SPOR",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/smartspor.png",
       "badge": "1080p HD",
       "aliases": [
-        "smarts"
+        "smarts",
+        "smartspor",
+        "smartspor1"
       ]
     },
     {
-      "id": "smarts2",
+      "id": "smartspor2",
       "name": "SMART SPOR 2",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/smartspor2.png",
       "badge": "1080p HD",
       "aliases": [
-        "smarts2"
+        "smarts2",
+        "smartspor2",
+        "sms2"
       ]
     },
     {
-      "id": "t1",
+      "id": "selcuktivibuspor1",
       "name": "TİVİBU SPOR 1",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/tivibu1.png",
       "badge": "1080p HD",
       "aliases": [
-        "t1"
+        "t1",
+        "tivibu1",
+        "selcuktivibuspor1",
+        "tivibuspor1",
+        "tivibuspor"
       ]
     },
     {
-      "id": "t2",
+      "id": "selcuktivibuspor2",
       "name": "TİVİBU SPOR 2",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/tivibu2.png",
       "badge": "1080p HD",
       "aliases": [
-        "t2"
+        "t2",
+        "tivibu2",
+        "selcuktivibuspor2",
+        "tivibuspor2"
       ]
     },
     {
-      "id": "t3",
+      "id": "selcuktivibuspor3",
       "name": "TİVİBU SPOR 3",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/tivibu3.png",
       "badge": "1080p HD",
       "aliases": [
-        "t3"
+        "t3",
+        "tivibu3",
+        "selcuktivibuspor3",
+        "tivibuspor3"
       ]
     },
     {
-      "id": "t4",
+      "id": "selcuktivibuspor4",
       "name": "TİVİBU SPOR 4",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/tivibu4.png",
       "badge": "1080p HD",
       "aliases": [
-        "t4"
-      ]
-    },
-    {
-      "id": "skyf1",
-      "name": "SKY SPORTS F1",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/skysportsf1.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "skyf1"
-      ]
-    },
-    {
-      "id": "eu1",
-      "name": "EURO SPORT 1",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/eurosport1.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "eu1"
-      ]
-    },
-    {
-      "id": "eu2",
-      "name": "EURO SPORT 2",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/eurosport2.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "eu2"
+        "t4",
+        "tivibu4",
+        "selcuktivibuspor4",
+        "tivibuspor4"
       ]
     },
     {
@@ -369,7 +353,7 @@
       ]
     },
     {
-      "id": "ex7",
+      "id": "selcuktabiispor1",
       "name": "TABİİ SPOR",
       "category": "ssport",
       "logo": "https://patronsports2.cfd/img/tabii.png",
@@ -377,26 +361,31 @@
       "aliases": [
         "ex7",
         "exxen7",
-        "selcukexxen7"
+        "selcukexxen7",
+        "tabiispor",
+        "tabiispor1",
+        "selcuktabiispor1",
+        "tabii"
       ]
     },
     {
-      "id": "ex1",
-      "name": "TABİİ SPOR 1",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tabii (1).png",
+      "id": "selcukexxen1",
+      "name": "EXXEN 1",
+      "category": "exxen",
+      "logo": "https://patronsports2.cfd/img/exxen.png",
       "badge": "1080p HD",
       "aliases": [
         "ex1",
         "exxen1",
-        "selcukexxen1"
+        "selcukexxen1",
+        "exxen"
       ]
     },
     {
-      "id": "ex2",
-      "name": "TABİİ SPOR 2",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tabii.png",
+      "id": "selcukexxen2",
+      "name": "EXXEN 2",
+      "category": "exxen",
+      "logo": "https://patronsports2.cfd/img/exxen.png",
       "badge": "1080p HD",
       "aliases": [
         "ex2",
@@ -405,10 +394,10 @@
       ]
     },
     {
-      "id": "ex3",
-      "name": "TABİİ SPOR 3",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tabii.png",
+      "id": "selcukexxen3",
+      "name": "EXXEN 3",
+      "category": "exxen",
+      "logo": "https://patronsports2.cfd/img/exxen.png",
       "badge": "1080p HD",
       "aliases": [
         "ex3",
@@ -417,10 +406,10 @@
       ]
     },
     {
-      "id": "ex4",
-      "name": "TABİİ SPOR 4",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tabii.png",
+      "id": "selcukexxen4",
+      "name": "EXXEN 4",
+      "category": "exxen",
+      "logo": "https://patronsports2.cfd/img/exxen.png",
       "badge": "1080p HD",
       "aliases": [
         "ex4",
@@ -429,59 +418,16 @@
       ]
     },
     {
-      "id": "ex5",
-      "name": "TABİİ SPOR 5",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tabii.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "ex5",
-        "exxen5",
-        "selcukexxen5"
-      ]
-    },
-    {
-      "id": "ex6",
-      "name": "TABİİ SPOR 6",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tabii.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "ex6",
-        "exxen6",
-        "selcukexxen6"
-      ]
-    },
-    {
-      "id": "ex1",
-      "name": "EXXEN",
+      "id": "selcukexxen5",
+      "name": "EXXEN 5",
       "category": "exxen",
       "logo": "https://patronsports2.cfd/img/exxen.png",
       "badge": "1080p HD",
       "aliases": [
-        "ex1",
-        "exxen1",
-        "selcukexxen1"
-      ]
-    },
-    {
-      "id": "sifirtv",
-      "name": "Sıfır Tv",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/sifirtv.png",
-      "badge": "1080p HD",
-      "aliases": [
+        "ex5",
+        "exxen5",
+        "selcukexxen5",
         "sifirtv"
-      ]
-    },
-    {
-      "id": "bikanal",
-      "name": "Bi Kanal",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/bikanal.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "bikanal"
       ]
     },
     {
