@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
   "matches_api_url": "https://patronsports2.cfd/matches.php",
   "default_primary_base": "https://dga1op10s1u3lea.82250d06d39d38.click/live/{id}/playlist.m3u8",
@@ -253,7 +253,8 @@
         "ss1",
         "ssport1",
         "selcukssport",
-        "ssport"
+        "ssport",
+        "cbc"
       ]
     },
     {
@@ -303,7 +304,8 @@
         "tivibu1",
         "selcuktivibuspor1",
         "tivibuspor1",
-        "tivibuspor"
+        "tivibuspor",
+        "t0"
       ]
     },
     {
