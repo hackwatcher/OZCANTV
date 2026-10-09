@@ -1,11 +1,11 @@
 {
-  "version": 13,
+  "version": 15,
   "config_update_url": "https://raw.githubusercontent.com/hackwatcher/OZCANTV/main/channels_config.json",
-  "matches_api_url": "https://patronsports2.cfd/matches.php",
-  "default_primary_base": "https://dga1op10s1u3lea.82250d06d39d38.click/live/{id}/playlist.m3u8",
-  "default_primary_referer": "https://main.uxsyplayer6859599e6c.click/",
-  "default_backup_player": "https://main.uxsyplayer6859599e6c.click/index.php?id={id}",
-  "default_backup_referer": "https://www.selcuksportshd0.xyz",
+  "matches_api_url": "https://fdjhgdhjfgdfg.icu/m/arkadastv.json",
+  "default_primary_base": "https://gdb36gd.icu/{id}/mono.m3u8",
+  "default_primary_referer": "https://fdjhgdhjfgdfg.icu/",
+  "default_backup_player": "https://fdjhgdhjfgdfg.icu/ch.html?m=arkadastv&id={id}",
+  "default_backup_referer": "https://loginmatik3.com/canli-mac-izle",
   "channels": [
     {
       "id": "trt1",
@@ -42,8 +42,7 @@
       "aliases": [
         "trtspor2",
         "trt spor 2",
-        "trt sporyildiz",
-        "trtspor yildiz"
+        "trt sporyildiz"
       ],
       "stream_url": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8"
     },
@@ -104,6 +103,7 @@
       "aliases": [
         "as",
         "aspor",
+        "asporhd",
         "a spor"
       ],
       "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8"
@@ -116,9 +116,196 @@
       "badge": "1080p HD",
       "aliases": [
         "ahaber",
-        "a haber"
+        "a haber",
+        "ahaberhd"
       ],
       "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8"
+    },
+    {
+      "id": "a2",
+      "name": "A2 TV HD",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "a2",
+        "a2hd",
+        "a2 tv"
+      ],
+      "stream_url": "https://gdb36gd.icu/a2hd/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "beinsports1fhd",
+      "name": "BEIN SPORTS 1",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports1.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "beinsports1fhd",
+        "beinsports1",
+        "selcukbeinsports1",
+        "bein1",
+        "b1",
+        "patron",
+        "1"
+      ],
+      "stream_url": "https://gdb36gd.icu/beinsports1fhd/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "beinsports2fhd",
+      "name": "BEIN SPORTS 2",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports2.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "beinsports2fhd",
+        "beinsports2",
+        "selcukbeinsports2",
+        "bein2",
+        "b2",
+        "2"
+      ],
+      "stream_url": "https://gdb36gd.icu/beinsports2fhd/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "beinsports3fhd",
+      "name": "BEIN SPORTS 3",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports3.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "beinsports3fhd",
+        "beinsports3",
+        "selcukbeinsports3",
+        "bein3",
+        "b3",
+        "3"
+      ],
+      "stream_url": "https://gdb36gd.icu/beinsports3fhd/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "beinsports4hd",
+      "name": "BEIN SPORTS 4",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports4.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "beinsports4hd",
+        "beinsports4",
+        "selcukbeinsports4",
+        "bein4",
+        "b4",
+        "4"
+      ],
+      "stream_url": "https://gdb36gd.icu/beinsports4hd/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "selcukbeinsports5",
+      "name": "BEIN SPORTS 5",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsports5.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "selcukbeinsports5",
+        "beinsports5",
+        "b5",
+        "5"
+      ],
+      "stream_url": "https://gdb36gd.icu/beinsports1/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "selcukbeinsportsmax1",
+      "name": "BEIN SPORTS MAX 1",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsportsmax1.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "selcukbeinsportsmax1",
+        "beinmax1",
+        "bm1"
+      ],
+      "stream_url": "https://gdb36gd.icu/beinsports1/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "selcukbeinsportsmax2",
+      "name": "BEIN SPORTS MAX 2",
+      "category": "bein",
+      "logo": "https://patronsports2.cfd/img/beinsportsmax2.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "selcukbeinsportsmax2",
+        "beinmax2",
+        "bm2"
+      ],
+      "stream_url": "https://gdb36gd.icu/beinsports2fhd/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "ssportplus",
+      "name": "S SPORT",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/ssport1.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "ssportplus",
+        "selcukssport",
+        "ssport",
+        "ssport1",
+        "ss",
+        "cbc",
+        "cbcsport"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "selcukssport2",
+      "name": "S SPORT 2",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/ssport2.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "selcukssport2",
+        "ssport2",
+        "ss2"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "smartspor",
+      "name": "SMART SPOR",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/smartspor1.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "smartspor",
+        "selcuksmartspor",
+        "smarts"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "smartspor2",
+      "name": "SMART SPOR 2",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/smartspor2.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "smartspor2",
+        "selcuksmartspor2",
+        "smarts2"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "tv8",
@@ -129,7 +316,9 @@
       "aliases": [
         "tv8",
         "tv 8"
-      ]
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "tv85",
@@ -141,841 +330,200 @@
         "tv85",
         "tv 8.5",
         "tv8,5"
-      ]
-    },
-    {
-      "id": "selcukbeinsports1",
-      "name": "BEIN SPORTS 1",
-      "category": "bein",
-      "logo": "https://patronsports2.cfd/img/beinsports1.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "patron",
-        "b1",
-        "bein1",
-        "selcukbeinsports1",
-        "beinsports1",
-        "bein-sports-1"
-      ]
-    },
-    {
-      "id": "selcukbeinsports2",
-      "name": "BEIN SPORTS 2",
-      "category": "bein",
-      "logo": "https://patronsports2.cfd/img/beinsports2.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "b2",
-        "bein2",
-        "selcukbeinsports2",
-        "beinsports2",
-        "bein-sports-2"
-      ]
-    },
-    {
-      "id": "selcukbeinsports3",
-      "name": "BEIN SPORTS 3",
-      "category": "bein",
-      "logo": "https://patronsports2.cfd/img/beinsports3.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "b3",
-        "bein3",
-        "selcukbeinsports3",
-        "beinsports3",
-        "bein-sports-3"
-      ]
-    },
-    {
-      "id": "selcukbeinsports4",
-      "name": "BEIN SPORTS 4",
-      "category": "bein",
-      "logo": "https://patronsports2.cfd/img/beinsports4.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "b4",
-        "bein4",
-        "selcukbeinsports4",
-        "beinsports4",
-        "bein-sports-4"
-      ]
-    },
-    {
-      "id": "selcukbeinsports5",
-      "name": "BEIN SPORTS 5",
-      "category": "bein",
-      "logo": "https://patronsports2.cfd/img/beinsports5.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "b5",
-        "bein5",
-        "selcukbeinsports5",
-        "beinsports5",
-        "bein-sports-5"
-      ]
-    },
-    {
-      "id": "selcukbeinsportsmax1",
-      "name": "BEIN SPORTS MAX 1",
-      "category": "bein",
-      "logo": "https://patronsports2.cfd/img/beinsportsmax1.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "bm1",
-        "beinm1",
-        "selcukbeinsportsm1",
-        "selcukbeinsportsmax1",
-        "beinsportsmax1"
-      ]
-    },
-    {
-      "id": "selcukbeinsportsmax2",
-      "name": "BEIN SPORTS MAX 2",
-      "category": "bein",
-      "logo": "https://patronsports2.cfd/img/beinsportsmax2.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "bm2",
-        "beinm2",
-        "selcukbeinsportsm2",
-        "selcukbeinsportsmax2",
-        "beinsportsmax2"
-      ]
-    },
-    {
-      "id": "selcukssport",
-      "name": "S SPORT",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/ssport1.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "ss",
-        "ss1",
-        "ssport1",
-        "selcukssport",
-        "ssport",
-        "cbc"
-      ]
-    },
-    {
-      "id": "selcukssport2",
-      "name": "S SPORT 2",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/ssport2.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "ss2",
-        "ssport2",
-        "selcukssport2"
-      ]
-    },
-    {
-      "id": "smartspor",
-      "name": "SMART SPOR",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/smartspor.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "smarts",
-        "smartspor",
-        "smartspor1"
-      ]
-    },
-    {
-      "id": "smartspor2",
-      "name": "SMART SPOR 2",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/smartspor2.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "smarts2",
-        "smartspor2",
-        "sms2"
-      ]
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "selcuktivibuspor1",
       "name": "TİVİBU SPOR 1",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tivibu1.png",
+      "category": "tivibu",
+      "logo": "https://patronsports2.cfd/img/tivibuspor1.png",
       "badge": "1080p HD",
       "aliases": [
-        "t1",
-        "tivibu1",
         "selcuktivibuspor1",
         "tivibuspor1",
-        "tivibuspor",
-        "t0"
-      ]
+        "tivibu1",
+        "t1"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "selcuktivibuspor2",
       "name": "TİVİBU SPOR 2",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tivibu2.png",
+      "category": "tivibu",
+      "logo": "https://patronsports2.cfd/img/tivibuspor2.png",
       "badge": "1080p HD",
       "aliases": [
-        "t2",
-        "tivibu2",
         "selcuktivibuspor2",
-        "tivibuspor2"
-      ]
+        "tivibuspor2",
+        "tivibu2",
+        "t2"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "selcuktivibuspor3",
       "name": "TİVİBU SPOR 3",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tivibu3.png",
+      "category": "tivibu",
+      "logo": "https://patronsports2.cfd/img/tivibuspor3.png",
       "badge": "1080p HD",
       "aliases": [
-        "t3",
-        "tivibu3",
         "selcuktivibuspor3",
-        "tivibuspor3"
-      ]
+        "tivibuspor3",
+        "tivibu3",
+        "t3"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "selcuktivibuspor4",
       "name": "TİVİBU SPOR 4",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tivibu4.png",
+      "category": "tivibu",
+      "logo": "https://patronsports2.cfd/img/tivibuspor4.png",
       "badge": "1080p HD",
       "aliases": [
-        "t4",
-        "tivibu4",
         "selcuktivibuspor4",
-        "tivibuspor4"
-      ]
-    },
-    {
-      "id": "redbulltv",
-      "name": "Red Bull TV",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/logos/default.png",
-      "badge": "1080p 60FPS",
-      "stream_url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
-      "aliases": [
-        "redbull",
-        "redbulltv"
-      ]
-    },
-    {
-      "id": "selcuktabiispor1",
-      "name": "TABİİ SPOR",
-      "category": "ssport",
-      "logo": "https://patronsports2.cfd/img/tabii.png",
-      "badge": "1080p HD",
-      "aliases": [
-        "ex7",
-        "exxen7",
-        "selcukexxen7",
-        "tabiispor",
-        "tabiispor1",
-        "selcuktabiispor1",
-        "tabii"
-      ]
+        "tivibuspor4",
+        "tivibu4",
+        "t4"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "selcukexxen1",
       "name": "EXXEN 1",
       "category": "exxen",
-      "logo": "https://patronsports2.cfd/img/exxen.png",
+      "logo": "https://patronsports2.cfd/img/exxen1.png",
       "badge": "1080p HD",
       "aliases": [
-        "ex1",
-        "exxen1",
         "selcukexxen1",
-        "exxen",
-        "ex6",
-        "exxen6",
-        "bikanal"
-      ]
+        "exxen1",
+        "ex1"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "selcukexxen2",
       "name": "EXXEN 2",
       "category": "exxen",
-      "logo": "https://patronsports2.cfd/img/exxen.png",
+      "logo": "https://patronsports2.cfd/img/exxen2.png",
       "badge": "1080p HD",
       "aliases": [
-        "ex2",
-        "exxen2",
         "selcukexxen2",
-        "ex8",
-        "exxen8"
-      ]
+        "exxen2",
+        "ex2"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "selcukexxen3",
       "name": "EXXEN 3",
       "category": "exxen",
-      "logo": "https://patronsports2.cfd/img/exxen.png",
+      "logo": "https://patronsports2.cfd/img/exxen3.png",
       "badge": "1080p HD",
       "aliases": [
-        "ex3",
+        "selcukexxen3",
         "exxen3",
-        "selcukexxen3"
-      ]
+        "ex3"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "selcukexxen4",
       "name": "EXXEN 4",
       "category": "exxen",
-      "logo": "https://patronsports2.cfd/img/exxen.png",
+      "logo": "https://patronsports2.cfd/img/exxen4.png",
       "badge": "1080p HD",
       "aliases": [
-        "ex4",
+        "selcukexxen4",
         "exxen4",
-        "selcukexxen4"
-      ]
+        "ex4"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
     },
     {
       "id": "selcukexxen5",
       "name": "EXXEN 5",
       "category": "exxen",
-      "logo": "https://patronsports2.cfd/img/exxen.png",
+      "logo": "https://patronsports2.cfd/img/exxen5.png",
       "badge": "1080p HD",
       "aliases": [
-        "ex5",
-        "exxen5",
         "selcukexxen5",
-        "sifirtv"
-      ]
+        "exxen5",
+        "ex5"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "tabiispor",
+      "name": "TABİİ SPOR",
+      "category": "ssport",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "tabiispor",
+        "tabii"
+      ],
+      "stream_url": "https://gdb36gd.icu/ssportplus/mono.m3u8",
+      "referer": "https://fdjhgdhjfgdfg.icu/"
+    },
+    {
+      "id": "redbulltv_official",
+      "name": "Red Bull TV",
+      "category": "national",
+      "logo": "https://patronsports2.cfd/img/logos/default.png",
+      "badge": "1080p HD",
+      "aliases": [
+        "redbulltv_official",
+        "redbull"
+      ],
+      "stream_url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
     },
     {
       "id": "trtbelgesel_official",
       "name": "TRT Belgesel HD",
-      "category": "docu",
+      "category": "national",
       "logo": "https://patronsports2.cfd/img/logos/default.png",
-      "badge": "1080p 50FPS",
-      "stream_url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
+      "badge": "1080p HD",
       "aliases": [
+        "trtbelgesel_official",
         "trtbelgesel"
-      ]
+      ],
+      "stream_url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8"
     },
     {
       "id": "trtcocuk_official",
       "name": "TRT Çocuk HD",
-      "category": "docu",
+      "category": "national",
       "logo": "https://patronsports2.cfd/img/logos/default.png",
-      "badge": "1080p 50FPS",
-      "stream_url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+      "badge": "1080p HD",
       "aliases": [
+        "trtcocuk_official",
         "trtcocuk"
-      ]
+      ],
+      "stream_url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8"
     },
     {
       "id": "minikago_official",
       "name": "Minika GO HD",
-      "category": "docu",
+      "category": "national",
       "logo": "https://patronsports2.cfd/img/logos/default.png",
-      "badge": "1080p 50FPS",
-      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8",
+      "badge": "1080p HD",
       "aliases": [
+        "minikago_official",
         "minikago"
-      ]
-    }
-  ],
-  "movies": [
-    {
-      "id": "vod_1544061",
-      "title": "Nemlizade",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/zD5bZUxh1jXTPnH7SkLStaBEC9b.jpg",
-      "year": "2024",
-      "rating": "⭐ 8.2",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1544061.mkv"
-    },
-    {
-      "id": "vod_1455264",
-      "title": "Keçilerle Yaşam | TR ALTYAZI",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vwRkVhvJuAFz4i8udXMNkcJCztc.jpg",
-      "year": "2024",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1455264.mkv"
-    },
-    {
-      "id": "vod_1456912",
-      "title": "Perde Arkası: Hope Solo'nun Futbol Kariyeri",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/VI3UcTXjPuqsgQRMkTfaRwa0w.jpg",
-      "year": "2024",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1456912.mkv"
-    },
-    {
-      "id": "vod_1455273",
-      "title": "Perde Arkası: İşaret Hırsızı",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/64ktkHsKLMNxZkx86evJ5L6ac2a.jpg",
-      "year": "2024",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1455273.mkv"
-    },
-    {
-      "id": "vod_1480025",
-      "title": "Aile",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/5LyiadeCXEsoqmph0fZZhoCBWJa.jpg",
-      "year": "2024",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1480025.mkv"
-    },
-    {
-      "id": "vod_1459568",
-      "title": "Alacakaranlığın Evresi",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/fALvKjgfm0NazT1F8zJkv3W9gJe.jpg",
-      "year": "2024",
-      "rating": "⭐ 8.2",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1459568.mkv"
-    },
-    {
-      "id": "vod_1457294",
-      "title": "Annelik İçgüdüsü",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6EtPToJlGpjyuIxkIoztnBXYFgJ.jpg",
-      "year": "2024",
-      "rating": "⭐ 6",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1457294.mkv"
-    },
-    {
-      "id": "vod_1497479",
-      "title": "Anthony Jeselnik: Bones and All",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/lU96zGB4H8X1Jkrmh40J3I1enjE.jpg",
-      "year": "2024",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1497479.mkv"
-    },
-    {
-      "id": "vod_1460366",
-      "title": "Arap Kadri",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4JnfCypNLU2zQFWqp96elodAA20.jpg",
-      "year": "2024",
-      "rating": "⭐ 8.2",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1460366.mkv"
-    },
-    {
-      "id": "vod_1498860",
-      "title": "Arda Turan: Yüzleşme",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/dLn3DpqfXYQwjJAk2naLfuHFL99.jpg",
-      "year": "2024",
-      "rating": "⭐ 5",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1498860.mkv"
-    },
-    {
-      "id": "vod_1480334",
-      "title": "Aşk Duvarın Ötesinde",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/2M744maeOhki8otEm2qW8FLlil3.jpg",
-      "year": "2024",
-      "rating": "⭐ 6",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1480334.mkv"
-    },
-    {
-      "id": "vod_1480030",
-      "title": "Aşk Oyunu",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/9SfHJNVQQnudZAVxsrRFXvL9NAr.jpg",
-      "year": "2024",
-      "rating": "⭐ 6",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1480030.mkv"
-    },
-    {
-      "id": "vod_1481515",
-      "title": "Asphalt City",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/qXcd7wY7MmRs36fQt83iSMJelvV.jpg",
-      "year": "2024",
-      "rating": "⭐ 6",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1481515.mkv"
-    },
-    {
-      "id": "vod_1479386",
-      "title": "Atatürk II 1881 – 1919",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/t46svTyY0hfnHxqbSMZPEiPNDu7.jpg",
-      "year": "2024",
-      "rating": "⭐ 8",
-      "badge": "TR DUBLAJ 1080p",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1479386.mkv"
-    },
-    {
-      "id": "vod_1456599",
-      "title": "Oksijen",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mCAg3CStlGFw0de1U9MgmxKxwV7.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 6",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1456599.mkv"
-    },
-    {
-      "id": "vod_1504652",
-      "title": "#53 Batıda Kan Var",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/aAHsxZ4WcGObGTpraVCM95xew9J.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 8",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504652.mkv"
-    },
-    {
-      "id": "vod_1504661",
-      "title": "#61 Bitmeyen Sınav",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/eebUPRI4Z5e1Z7Hev4JZAwMIFkX.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 8",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504661.mkv"
-    },
-    {
-      "id": "vod_1504572",
-      "title": "#82 Prenses Mononoke",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/vRuupKMQezpr2BOVNyKijYH91Bw.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 8",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504572.mkv"
-    },
-    {
-      "id": "vod_1504842",
-      "title": "#111 Oppenheimer",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/r4JdkyE7AMJA8xODOfCC20pWvtU.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 8",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504842.mkv"
-    },
-    {
-      "id": "vod_1504598",
-      "title": "#121 Kapışma",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/26Pdbk6iNjNiHi1KnSoytCKnTSQ.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 7",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504598.mkv"
-    },
-    {
-      "id": "vod_1504593",
-      "title": "#169 Klaus: Sihirli Plan",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/bMTauRqrwvwHFLWI2b2DJ4GLH8Q.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 8",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504593.mkv"
-    },
-    {
-      "id": "vod_1480074",
-      "title": "41 Kişilik Dans",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/kSTx45wWsu2KJGpnNfXWEhP8wzx.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 7",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1480074.mkv"
-    },
-    {
-      "id": "vod_1470410",
-      "title": "6 Underground",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/lnWkyG3LLgbbrIEeyl5mK5VRFe4.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 6",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1470410.mkv"
-    },
-    {
-      "id": "vod_1480020",
-      "title": "Abis",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/j85K3H6Vx7yR1eMFn09cJsLiPhr.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 5",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1480020.mkv"
-    },
-    {
-      "id": "vod_1461830",
-      "title": "Aç Gezenler",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4VHUwd7GXHRi6m4exxJNEZdESwD.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 5",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1461830.mkv"
-    },
-    {
-      "id": "vod_1461763",
-      "title": "Açık Ev",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/eP64Tf1D9s7bsnFOQCC9idj8XJu.jpg",
-      "year": "NETFLIX",
-      "rating": "⭐ 3",
-      "badge": "NETFLIX TR",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1461763.mkv"
-    },
-    {
-      "id": "vod_1504544",
-      "title": "#22 Yedi Samuray",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/8podTebyeH6sn31atpdappdgaCE.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 8",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504544.mkv"
-    },
-    {
-      "id": "vod_1504613",
-      "title": "#44 Harakiri",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/juRMHEWUbk2kM9RdxjjcVjj7T1a.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 8",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504613.mkv"
-    },
-    {
-      "id": "vod_1504657",
-      "title": "#184 Ben Hur",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504657.mkv"
-    },
-    {
-      "id": "vod_1504622",
-      "title": "#204 Genç Sherlock",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/1G9r3rqtbFAQuyWKOZm4Y5J5s7Q.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 8",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504622.mkv"
-    },
-    {
-      "id": "vod_1504642",
-      "title": "#209 Asfaltın Kralları",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/7yXOh2PqutxhruHzVuoR35D1r4m.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 8",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504642.mkv"
-    },
-    {
-      "id": "vod_1504837",
-      "title": "#250 Parmaklıklar Arasında",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/mVF84dsxirZH2qoopiQJIVtvvkD.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504837.mkv"
-    },
-    {
-      "id": "vod_1504621",
-      "title": "General",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/nIp4gIXogCjfB1QABNsWwa9gSca.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 8",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504621.mkv"
-    },
-    {
-      "id": "vod_1461141",
-      "title": "13 Minutes",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/oKng4fEr4QgS869UuWLSjAsR2rz.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 5",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1461141.mkv"
-    },
-    {
-      "id": "vod_1480152",
-      "title": "6.5 Metre",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/1W5vrWMOH7iyJK9bIIWZtpB01c8.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1480152.mkv"
-    },
-    {
-      "id": "vod_1459247",
-      "title": "6 Süper Kahraman",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/arU3cIkDhOyhiiPsWVzSOVqYIbU.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1459247.mkv"
-    },
-    {
-      "id": "vod_1457311",
-      "title": "ACAB : All Cops Are Bastards",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lmpkw9hRmuI0pk7CWDJRWSksl3i.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 6",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1457311.mkv"
-    },
-    {
-      "id": "vod_1461282",
-      "title": "Adalet 2",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xNcm0kmMOmE5lxRiDaA6bmx4unH.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 6",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1461282.mkv"
-    },
-    {
-      "id": "vod_1496318",
-      "title": "Aeon Flux: Gelecek Flux’ta",
-      "category": "movies",
-      "poster": "https://image.tmdb.org/t/p/w400/5958Nt4QX6aRSUdQnvNw8wqjTJQ.jpg",
-      "year": "AKSIYON",
-      "rating": "⭐ 5",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1496318.mkv"
-    },
-    {
-      "id": "vod_1504818",
-      "title": "#83 Senin Adın",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/jkK6XdJqSCm7maDV8xgbE0JVNIP.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 8",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504818.mkv"
-    },
-    {
-      "id": "vod_1504822",
-      "title": "#92 Oyuncak Hikayesi 3",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/qBNNAO9EVqx1vRdCbBtr5TDonA4.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1504822.mkv"
-    },
-    {
-      "id": "vod_1470461",
-      "title": "Afacan Çöp Kamyonu: Noel Macerası",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/2kWVSZfK9gbbNQD93Qwi8VvYjlB.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 6",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1470461.mkv"
-    },
-    {
-      "id": "vod_1470416",
-      "title": "A Greyhound of a Girl",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/AlskBS2BTbSzZ07jxTGvEcemFl2.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1470416.mkv"
-    },
-    {
-      "id": "vod_1470473",
-      "title": "Ainbo",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/l8HyObVj8fPrzacAPtGWWLDhcfh.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1470473.mkv"
-    },
-    {
-      "id": "vod_1477491",
-      "title": "Ajanlar İş Başında",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/ezV66USUWZVNCqPJtxaM2WZjPcE.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 7",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1477491.mkv"
-    },
-    {
-      "id": "vod_1470474",
-      "title": "Akıllı Balık",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/s2yPu4PbfGOfp5TiRO0EJ5heZkX.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 2",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1470474.mkv"
-    },
-    {
-      "id": "vod_1470475",
-      "title": "Aksiyon Takımı Noel Görevinde",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/a6MUJa8xIBQnx0a5Us5pEe38l9P.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 4",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1470475.mkv"
-    },
-    {
-      "id": "vod_1479934",
-      "title": "Alien Xmas",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/3UGrAX6D1AMVra80jmUMUOLq8Qr.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 6",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1479934.mkv"
-    },
-    {
-      "id": "vod_1470480",
-      "title": "Altered Carbon: Resleeved",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/dql1WvlOdEgzQ0Ub05NqHmW7D4y.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 6",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1470480.mkv"
-    },
-    {
-      "id": "vod_1470998",
-      "title": "Amerika: Sinema Filmi",
-      "category": "animation",
-      "poster": "https://image.tmdb.org/t/p/w400/1JRRvx5RotvWM1maeq9r82ktdHi.jpg",
-      "year": "ÇOCUK",
-      "rating": "⭐ 5",
-      "badge": "TR DUBLAJ",
-      "stream_url": "https://canta21.shop/movie/Emir34zcn/Gayemir123/1470998.mkv"
+      ],
+      "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8"
     }
   ]
 }
