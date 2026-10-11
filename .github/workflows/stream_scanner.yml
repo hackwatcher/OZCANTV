@@ -1,0 +1,55 @@
+name: 📺 Özcan TV Canlı Yayın Otomatik Tarayıcı
+
+on:
+  schedule:
+    # Günde 4 defa (Türkiye saati UTC+3):
+    # 09:00 UTC = 12:00 TSİ (Öğlen kontrolü)
+    # 13:00 UTC = 16:00 TSİ (İkindi maçları)
+    # 16:00 UTC = 19:00 TSİ (Akşam ana maçları)
+    # 19:00 UTC = 22:00 TSİ (Gece maçları)
+    - cron: '0 9,13,16,19 * * *'
+  workflow_dispatch: # GitHub arayüzünden tek tıkla elle tetikleme imkanı
+
+permissions:
+  contents: write
+
+jobs:
+  scan-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Depoyu Klonla
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐍 Python Ortamını Kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Bağımlılıkları Yükle
+        run: |
+          pip install --upgrade pip
+          pip install requests python-dotenv
+
+      - name: 🔍 Yayınları Tara & Güncelle
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          GITHUB_BRANCH: main
+        run: |
+          python bot/checker_bot.py --run-once
+
+      - name: 🚀 Değişiklik Varsa GitHub'a Commit & Push Yap
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain channels_config.json)" ]; then
+            git add channels_config.json
+            git commit -m "Auto-Update: TV yayınları yenilendi [$(date +'%Y-%m-%d %H:%M')]"
+            git push
+            echo "✅ Kanal listesi başarıyla güncellendi ve pushlandı."
+          else
+            echo "⚡ Kanal linklerinde değişiklik yok, yayınlar aktif."
+          fi
